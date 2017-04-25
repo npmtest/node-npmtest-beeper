@@ -1,4 +1,7 @@
-# test coverage for  [beeper (v1.1.1)](https://github.com/sindresorhus/beeper#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-beeper.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-beeper) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-beeper.svg)](https://travis-ci.org/npmtest/node-npmtest-beeper)
+# npmtest-beeper
+
+#### basic test coverage for  [beeper (v1.1.1)](https://github.com/sindresorhus/beeper#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-beeper.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-beeper) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-beeper.svg)](https://travis-ci.org/npmtest/node-npmtest-beeper)
+
 #### Make your terminal beep
 
 [![NPM](https://nodei.co/npm/beeper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/beeper)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-beeper/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-beeper/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-beeper/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-beeper/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-beeper/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-beeper/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-beeper/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-beeper/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-beeper/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-beeper/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-beeper/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-beeper/build/coverage.html/index.html)
 
@@ -86,7 +89,8 @@
     "scripts": {
         "test": "node test.js"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
 
